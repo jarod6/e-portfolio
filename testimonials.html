@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarod Tuckwood | Testimonials</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-top: 0.5em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.3em;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            color: #444;
+        }
+        
+        p {
+            margin-bottom: 1.5em;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        
+        a:hover {
+            color: #004080;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em auto;
+            border-radius: 4px;
+        }
+        
+        /* Header */
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+            padding-bottom: 1em;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1.5em;
+            border: 1px solid #eee;
+        }
+        
+        .tagline {
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            margin-bottom: 1em;
+            font-size: 1.2em;
+        }
+        
+        /* Navigation */
+        nav {
+            margin: 1em 0 2em;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        
+        nav li {
+            margin: 0 0.5em;
+        }
+        
+        nav a {
+            display: inline-block;
+            padding: 0.5em 1em;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        nav a:hover, nav a.active {
+            background-color: #f8f8f8;
+            border-color: #ccc;
+        }
+        
+        nav a.active {
+            font-weight: bold;
+            border-bottom: 2px solid #0066cc;
+        }
+        
+        /* Testimonial Cards */
+        .testimonial-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 1.5em;
+            margin-bottom: 2em;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        
+        .testimonial-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .testimonial-content {
+            font-style: italic;
+            position: relative;
+            padding: 0 1em;
+        }
+        
+        .testimonial-content:before {
+            content: '"';
+            font-size: 4em;
+            font-family: Georgia, serif;
+            color: #eee;
+            position: absolute;
+            left: -0.5em;
+            top: -0.5em;
+            z-index: -1;
+        }
+        
+        .testimonial-author {
+            margin-top: 1.5em;
+        }
+        
+        .testimonial-name {
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        .testimonial-title {
+            color: #666;
+            margin: 0;
+        }
+        
+        /* Footer */
+        footer {
+            margin-top: 3em;
+            padding-top: 1.5em;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 0.5em;
+            }
+            
+            nav li {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-image-container">
+            <img src="images/profile-image.jpg" alt="Jarod Tuckwood" class="profile-image">
+        </div>
+        <h1>Jarod Tuckwood</h1>
+        <p class="tagline">Analytical Problem-Solver with Entrepreneurial Vision</p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="linkedin.html">LinkedIn</a></li>
+                <li><a href="medium.html">Medium</a></li>
+                <li><a href="twitter.html">Twitter/X</a></li>
+                <li><a href="testimonials.html" class="active">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="testimonials-intro">
+        <h2>What Others Say About Me</h2>
+        <p>Throughout my academic and professional journey, I've had the privilege of working with exceptional mentors, peers, and colleagues. Here's what they have to say about my analytical capabilities, creative problem-solving approach, and professional contributions:</p>
+    </section>
+    
+    <section id="testimonials-content">
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>I've mentored many students over my career, but Jarod stands out for his exceptional ability to perform under pressure. During the International Future Problem Solving competition, he demonstrated remarkable poise while developing structured solutions to ambiguous challenges. His perfectionist dedication to mastering both analytical frameworks and creative approaches makes him uniquely qualified for roles that require both technical precision and innovative thinking.</p>
+            </div>
+            <div class="testimonial-author">
+                <div class="testimonial-info">
+                    <p class="testimonial-name">Michael Thompson</p>
+                    <p class="testimonial-title">Director, Future Problem Solving Program Australia</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>Working alongside Jarod in our entrepreneurship incubator was a masterclass in balanced thinking. While many participants leaned heavily toward either analytical or creative approaches, Jarod consistently demonstrated the value of integrating both. His fashion brand concept was meticulously researched and structured, yet incorporated genuinely innovative elements. This "analytical creativity" he brings is precisely what distinguishes successful entrepreneurs from the rest.</p>
+            </div>
+            <div class="testimonial-author">
+                <div class="testimonial-info">
+                    <p class="testimonial-name">Emma Rodriguez</p>
+                    <p class="testimonial-title">Startup Mentor & Angel Investor</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>As Jarod's supervisor at the restaurant, I was consistently impressed by his reliability and adaptability. He never missed a shift and quickly became someone I trusted to train new team members. What set him apart was his ability to see beyond immediate tasks to understand the broader operational system—identifying inefficiencies and suggesting practical improvements that benefited both staff and customers. His combination of dependability and systems thinking will serve him well in any professional environment.</p>
+            </div>
+            <div class="testimonial-author">
+                <div class="testimonial-info">
+                    <p class="testimonial-name">James Wilson</p>
+                    <p class="testimonial-title">General Manager, Harbour View Restaurant</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials-conclusion">
+        <h2>Supporting My Positioning</h2>
+        <p>These testimonials reinforce my positioning as an analytical problem-solver with entrepreneurial vision. They highlight my ability to:</p>
+        <ul>
+            <li>Integrate analytical frameworks with creative thinking</li>
+            <li>Perform exceptionally well under pressure</li>
+            <li>Identify opportunities others might miss</li>
+            <li>Develop structured solutions to ambiguous problems</li>
+            <li>Bring reliability and systems thinking to operational contexts</li>
+        </ul>
+        <p>This feedback from mentors, professors, and supervisors validates my unique approach and demonstrates how my diverse experiences have prepared me for success in consulting and risk management roles.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Jarod Tuckwood. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -10,7 +10,7 @@
             font-family: Georgia, serif;
             line-height: 1.6;
             color: #333;
-            max-width: 1000px;
+            max-width: 700px;
             margin: 0 auto;
             padding: 20px;
             background-color: #fff;
@@ -20,7 +20,7 @@
             font-family: Helvetica, Arial, sans-serif;
             font-weight: 500;
             line-height: 1.2;
-            margin-top: 1.5em;
+            margin-top: 2em;
             margin-bottom: 0.5em;
         }
         
@@ -44,27 +44,26 @@
         a {
             color: #0066cc;
             text-decoration: none;
-            transition: all 0.2s ease;
+            border-bottom: 1px solid #0066cc;
         }
         
         a:hover {
             color: #004080;
+            border-bottom: 2px solid #004080;
         }
         
         img {
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 1em auto;
+            margin: 2em auto;
             border-radius: 4px;
         }
         
         /* Header */
         header {
-            margin-bottom: 2em;
+            margin-bottom: 3em;
             text-align: center;
-            padding-bottom: 1em;
-            border-bottom: 1px solid #eee;
         }
         
         .profile-image {
@@ -80,51 +79,13 @@
             font-style: italic;
             color: #666;
             text-align: center;
-            margin-bottom: 1em;
+            margin-bottom: 2em;
             font-size: 1.2em;
-        }
-        
-        /* Navigation */
-        nav {
-            margin: 1em 0 2em;
-            text-align: center;
-        }
-        
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 1em;
-        }
-        
-        nav li {
-            margin: 0 0.5em;
-        }
-        
-        nav a {
-            display: inline-block;
-            padding: 0.5em 1em;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            transition: all 0.2s ease;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        
-        nav a:hover, nav a.active {
-            background-color: #f8f8f8;
-            border-color: #ccc;
-        }
-        
-        nav a.active {
-            font-weight: bold;
-            border-bottom: 2px solid #0066cc;
         }
         
         /* Sections */
         section {
-            margin-bottom: 2.5em;
+            margin-bottom: 3em;
         }
         
         /* Social Media */
@@ -132,7 +93,7 @@
             display: flex;
             justify-content: center;
             gap: 2em;
-            margin: 2em 0;
+            margin: 3em 0;
         }
         
         .social-link {
@@ -143,20 +104,15 @@
         }
         
         .social-icon {
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             margin-bottom: 0.5em;
-            transition: transform 0.2s ease;
-        }
-        
-        .social-link:hover .social-icon {
-            transform: scale(1.1);
         }
         
         /* Footer */
         footer {
-            margin-top: 3em;
-            padding-top: 1.5em;
+            margin-top: 4em;
+            padding-top: 2em;
             border-top: 1px solid #eee;
             text-align: center;
             font-size: 0.9em;
@@ -176,15 +132,6 @@
             h2 {
                 font-size: 1.5em;
             }
-            
-            nav ul {
-                flex-direction: column;
-                gap: 0.5em;
-            }
-            
-            nav li {
-                margin: 0;
-            }
         }
     </style>
 </head>
@@ -195,16 +142,6 @@
         </div>
         <h1>Jarod Tuckwood</h1>
         <p class="tagline">Analytical Problem-Solver with Entrepreneurial Vision</p>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">About</a></li>
-                <li><a href="linkedin.html">LinkedIn</a></li>
-                <li><a href="medium.html">Medium</a></li>
-                <li><a href="twitter.html">Twitter/X</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-            </ul>
-        </nav>
     </header>
     
     <section id="intro">
@@ -215,7 +152,7 @@
         <h2>Who I Am</h2>
         <p>I've always been drawn to the intersection of structure and creativity. While my formal education has equipped me with analytical frameworks and business principles, it's my diverse experiences that truly define my approach to challenges.</p>
         
-        <p>Growing up, I enjoyed competitive sports, classical guitar (reaching Grade 6 AMEB), and directing documentary-style surf films. These seemingly disparate pursuits taught me the value of discipline, artistic expression, and storytelling—skills that continue to inform my professional perspective.</p>
+        <p>Growing up, I divided my time between competitive sports, classical guitar (reaching Grade 6 AMEB), and directing documentary-style surf films. These seemingly disparate pursuits taught me the value of discipline, artistic expression, and storytelling—skills that continue to inform my professional perspective.</p>
         
         <p>My competitive nature extends beyond traditional sports into e-sports, where the blend of strategic thinking and split-second decision-making mirrors many business environments. This experience, combined with my participation in national and international Future Problem Solving competitions, has honed my ability to perform exceptionally well under pressure.</p>
     </section>
@@ -249,18 +186,18 @@
     
     <section id="connect">
         <h2>Connect With Me</h2>
-        <p>I'm building my professional presence across three platforms, each showcasing different dimensions of my thinking. Click on the links below or use the navigation menu to explore my content on each platform:</p>
+        <p>I'm building my professional presence across three platforms, each showcasing different dimensions of my thinking:</p>
         
         <div class="social-links">
-            <a href="linkedin.html" class="social-link">
+            <a href="#linkedin" class="social-link">
                 <img src="images/linkedin-logo.png" alt="LinkedIn" class="social-icon">
                 <span>LinkedIn</span>
             </a>
-            <a href="medium.html" class="social-link">
+            <a href="#medium" class="social-link">
                 <img src="images/medium-logo.png" alt="Medium" class="social-icon">
                 <span>Medium</span>
             </a>
-            <a href="twitter.html" class="social-link">
+            <a href="#twitter" class="social-link">
                 <img src="images/twitter-logo.png" alt="Twitter" class="social-icon">
                 <span>Twitter</span>
             </a>

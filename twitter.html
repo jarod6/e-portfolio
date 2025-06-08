@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarod Tuckwood | Twitter/X Content</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-top: 0.5em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.3em;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            color: #444;
+        }
+        
+        p {
+            margin-bottom: 1.5em;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        
+        a:hover {
+            color: #004080;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em auto;
+            border-radius: 4px;
+        }
+        
+        /* Header */
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+            padding-bottom: 1em;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1.5em;
+            border: 1px solid #eee;
+        }
+        
+        .tagline {
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            margin-bottom: 1em;
+            font-size: 1.2em;
+        }
+        
+        /* Navigation */
+        nav {
+            margin: 1em 0 2em;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        
+        nav li {
+            margin: 0 0.5em;
+        }
+        
+        nav a {
+            display: inline-block;
+            padding: 0.5em 1em;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        nav a:hover, nav a.active {
+            background-color: #f8f8f8;
+            border-color: #ccc;
+        }
+        
+        nav a.active {
+            font-weight: bold;
+            border-bottom: 2px solid #0066cc;
+        }
+        
+        /* Tweet Cards */
+        .tweet-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 1.5em;
+            margin-bottom: 2em;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: all 0.2s ease;
+        }
+        
+        .tweet-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+        }
+        
+        .tweet-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 1em;
+        }
+        
+        .tweet-name {
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        .tweet-handle {
+            color: #888;
+            margin: 0;
+        }
+        
+        .tweet-date {
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 0.5em;
+        }
+        
+        .tweet-content {
+            margin-bottom: 1em;
+        }
+        
+        .tweet-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            margin: 1em 0;
+            border-radius: 8px;
+        }
+        
+        .tweet-actions {
+            display: flex;
+            gap: 2em;
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .tweet-thread {
+            margin-left: 2em;
+            border-left: 2px solid #eee;
+            padding-left: 1.5em;
+        }
+        
+        /* Footer */
+        footer {
+            margin-top: 3em;
+            padding-top: 1.5em;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 0.5em;
+            }
+            
+            nav li {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-image-container">
+            <img src="images/profile-image.jpg" alt="Jarod Tuckwood" class="profile-image">
+        </div>
+        <h1>Jarod Tuckwood</h1>
+        <p class="tagline">Analytical Problem-Solver with Entrepreneurial Vision</p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="linkedin.html">LinkedIn</a></li>
+                <li><a href="medium.html">Medium</a></li>
+                <li><a href="twitter.html" class="active">Twitter/X</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="twitter-profile">
+        <h2>My Twitter/X Feed</h2>
+        <p><strong>Strategic Purpose:</strong> Industry engagement and demonstration of current awareness through concise insights on business trends and emerging topics.</p>
+        
+        <p>On Twitter/X, I engage with industry conversations and share concise insights on business trends, risk management, and consulting approaches. This platform allows me to demonstrate current awareness and quick, insightful thinking on emerging topics.</p>
+        
+        <p>Below are examples of my Twitter/X content that showcase my engagement with industry trends and thought leadership:</p>
+    </section>
+    
+    <section id="twitter-content">
+        <div class="tweet-card">
+            <div class="tweet-header">
+                <img src="images/profile-image.jpg" alt="Jarod Tuckwood" class="tweet-avatar">
+                <div>
+                    <p class="tweet-name">Jarod Tuckwood</p>
+                    <p class="tweet-handle">@analytical_vision</p>
+                </div>
+            </div>
+            <p class="tweet-date">May 28, 2025</p>
+            <div class="tweet-content">
+                <p>Just completed an analysis on how consulting firms are adapting their risk management frameworks for the digital age. Key findings below 🧵 <a href="#">#RiskManagement</a> <a href="#">#Consulting</a> <a href="#">#DigitalTransformation</a></p>
+                <img src="images/page7.jpg" alt="Risk Management Evolution" class="tweet-image">
+            </div>
+            <div class="tweet-actions">
+                <span>💬 12</span>
+                <span>🔄 24</span>
+                <span>❤️ 47</span>
+            </div>
+            
+            <div class="tweet-thread">
+                <p>1/ Traditional risk models often fail to account for the velocity of change in digital environments. The most successful firms are implementing dynamic risk assessment protocols that match response speed to risk category. <a href="#">#BusinessStrategy</a></p>
+            </div>
+            
+            <div class="tweet-thread">
+                <p>2/ Cross-functional risk teams outperform siloed approaches by 37% in identifying emerging threats. Integration of technical, operational, and strategic perspectives creates more comprehensive risk identification. <a href="#">#RiskManagement</a></p>
+            </div>
+            
+            <div class="tweet-thread">
+                <p>3/ The integration of real-time data analytics with traditional risk frameworks creates a more responsive and adaptive approach to uncertainty. Leading firms are using "risk sensing networks" that combine multiple data sources for early warning. <a href="#">#DataAnalytics</a></p>
+            </div>
+            
+            <div class="tweet-thread">
+                <p>4/ Effective digital risk management requires both preservation and evolution—maintaining core risk disciplines while developing new capabilities for digital-specific challenges. <a href="#">#DigitalTransformation</a></p>
+            </div>
+            
+            <div class="tweet-thread">
+                <p>5/ The most successful consulting approaches balance analytical rigor with entrepreneurial thinking—using structured frameworks to validate innovative solutions rather than constraining them. <a href="#">#ConsultingInsights</a></p>
+            </div>
+        </div>
+        
+        <div class="tweet-card">
+            <div class="tweet-header">
+                <img src="images/profile-image.jpg" alt="Jarod Tuckwood" class="tweet-avatar">
+                <div>
+                    <p class="tweet-name">Jarod Tuckwood</p>
+                    <p class="tweet-handle">@analytical_vision</p>
+                </div>
+            </div>
+            <p class="tweet-date">April 15, 2025</p>
+            <div class="tweet-content">
+                <p>Fascinating insights from today's @BigFourConsulting report on the future of strategic advisory services. The emphasis on combining analytical capabilities with creative problem-solving aligns perfectly with where the industry needs to go. <a href="#">#ConsultingTrends</a> <a href="#">#BusinessStrategy</a></p>
+                <img src="images/page8.jpg" alt="Consulting Report" class="tweet-image">
+                <p>What stands out most is their finding that 73% of clients now value consultants who can balance rigorous analysis with innovative thinking—a significant shift from the 42% reported just five years ago. The market clearly recognizes the power of this integrated approach.</p>
+                <p>This reflects what I've observed in my own research: the most effective business solutions emerge when structured frameworks are used to validate creative approaches rather than constrain them. Neither analysis nor innovation alone is sufficient.</p>
+            </div>
+            <div class="tweet-actions">
+                <span>💬 8</span>
+                <span>🔄 19</span>
+                <span>❤️ 35</span>
+            </div>
+        </div>
+        
+        <div class="tweet-card">
+            <div class="tweet-header">
+                <img src="images/profile-image.jpg" alt="Jarod Tuckwood" class="tweet-avatar">
+                <div>
+                    <p class="tweet-name">Jarod Tuckwood</p>
+                    <p class="tweet-handle">@analytical_vision</p>
+                </div>
+            </div>
+            <p class="tweet-date">March 22, 2025</p>
+            <div class="tweet-content">
+                <p>Completed an advanced financial modeling workshop today. Key takeaway: Even the most sophisticated models require human judgment and contextual understanding to drive effective decision-making. <a href="#">#ContinuousLearning</a> <a href="#">#FinancialAnalysis</a></p>
+                <img src="images/page9.jpg" alt="Financial Modeling" class="tweet-image">
+                <p>The workshop reinforced that quantitative analysis provides a foundation, but the real value comes from the qualitative interpretation—understanding what the numbers mean in context and how they should inform strategy.</p>
+                <p>This balance between analytical rigor and business judgment is exactly what I aim to bring to consulting and risk management roles—technical precision paired with strategic thinking.</p>
+            </div>
+            <div class="tweet-actions">
+                <span>💬 5</span>
+                <span>🔄 12</span>
+                <span>❤️ 28</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="twitter-connect">
+        <h2>Follow Me on Twitter/X</h2>
+        <p>I regularly share insights on business trends, risk management, and consulting approaches. Follow me on Twitter/X to join the conversation and see my latest thoughts.</p>
+        <p style="text-align: center;"><a href="#twitter" style="display: inline-block; padding: 0.8em 1.5em; background-color: #1DA1F2; color: white; border-radius: 4px; font-weight: bold; border: none;">Follow Me on Twitter/X</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Jarod Tuckwood. All rights reserved.</p>
+    </footer>
+</body>
+</html>
